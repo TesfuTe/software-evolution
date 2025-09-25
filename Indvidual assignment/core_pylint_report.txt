@@ -1,0 +1,115 @@
+
+
+Report
+======
+1007 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |24     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |137    |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |17     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    homeassistant 
+      \-auth (homeassistant.core)
+      \-components 
+      | \-http (homeassistant.core)
+      \-config_entries (homeassistant.core)
+      \-const (homeassistant.core)
+      \-exceptions (homeassistant.core)
+      \-helpers 
+      | \-deprecation (homeassistant.core)
+      | \-entity (homeassistant.core)
+      | \-frame (homeassistant.core)
+      | \-json (homeassistant.core)
+      | \-signal (homeassistant.core)
+      | \-typing (homeassistant.core)
+      \-util (homeassistant.core)
+        \-async_ (homeassistant.core)
+        \-dt (homeassistant.core)
+        \-event_type (homeassistant.core)
+        \-executor (homeassistant.core)
+        \-hass_dict (homeassistant.core)
+        \-json (homeassistant.core)
+        \-read_only_dict (homeassistant.core)
+        \-timeout (homeassistant.core)
+        \-ulid (homeassistant.core)
+    propcache 
+      \-api (homeassistant.core)
+    voluptuous (homeassistant.core)
+
+
+
+2895 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1750   |60.45 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |655    |22.63 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |127    |4.39  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |363    |12.54 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+
+
+

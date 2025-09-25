@@ -1,0 +1,117 @@
+
+
+Report
+======
+880 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |8      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |7      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |34     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |34     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    homeassistant 
+      \-components 
+      | \-device_automation (homeassistant.components.light.device_action)
+      | | \-toggle_entity (homeassistant.components.light.device_action,homeassistant.components.light.device_condition,homeassistant.components.light.device_trigger)
+      | \-light (homeassistant.components.light.const,homeassistant.components.light.device_action,homeassistant.components.light.intent,homeassistant.components.light.reproduce_state,homeassistant.components.light.significant_change)
+      |   \-const (homeassistant.components.light.device_action,homeassistant.components.light.device_condition,homeassistant.components.light.device_trigger,homeassistant.components.light.intent,homeassistant.components.light.reproduce_state)
+      \-config_entries (homeassistant.components.light)
+      \-const (homeassistant.components.light,homeassistant.components.light.device_action,homeassistant.components.light.device_condition,homeassistant.components.light.device_trigger,homeassistant.components.light.intent,homeassistant.components.light.reproduce_state)
+      \-core (homeassistant.components.light,homeassistant.components.light.device_action,homeassistant.components.light.device_condition,homeassistant.components.light.device_trigger,homeassistant.components.light.intent,homeassistant.components.light.reproduce_state,homeassistant.components.light.significant_change)
+      \-exceptions (homeassistant.components.light,homeassistant.components.light.device_action)
+      \-helpers 
+      | \-condition (homeassistant.components.light.device_condition)
+      | \-config_validation (homeassistant.components.light,homeassistant.components.light.device_action,homeassistant.components.light.intent)
+      | \-deprecation (homeassistant.components.light)
+      | \-entity (homeassistant.components.light,homeassistant.components.light.device_action)
+      | \-entity_component (homeassistant.components.light,homeassistant.components.light.const)
+      | \-entity_registry (homeassistant.components.light,homeassistant.components.light.device_action)
+      | \-frame (homeassistant.components.light)
+      | \-intent (homeassistant.components.light.intent)
+      | \-significant_change (homeassistant.components.light.significant_change)
+      | \-trigger (homeassistant.components.light.device_trigger)
+      | \-typing (homeassistant.components.light,homeassistant.components.light.device_action,homeassistant.components.light.device_condition,homeassistant.components.light.device_trigger)
+      \-loader (homeassistant.components.light)
+      \-util 
+        \-color (homeassistant.components.light,homeassistant.components.light.intent,homeassistant.components.light.reproduce_state)
+        \-hass_dict (homeassistant.components.light.const)
+    propcache 
+      \-api (homeassistant.components.light)
+    voluptuous (homeassistant.components.light,homeassistant.components.light.device_action,homeassistant.components.light.device_condition,homeassistant.components.light.device_trigger,homeassistant.components.light.intent)
+
+
+
+2059 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1509   |73.29 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |180    |8.74  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |67     |3.25  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |303    |14.72 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+
+
+
