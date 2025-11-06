@@ -32,7 +32,7 @@ hass -c config
 
 ---
 
-## 3. Set Up and Run the Frontend
+## 3. Set Up Frontend
 
 In your **frontend** repository:
 
@@ -41,6 +41,15 @@ nvm install
 nvm use
 script/bootstrap
 script/setup_translations
+```
+
+---
+
+## 4. Run the Frontend
+
+In your **frontend** repository:
+
+```bash
 nvm use
 script/develop
 nvm use
@@ -49,7 +58,7 @@ script/develop_and_serve -c http://localhost:8123
 
 ---
 
-## 4. Access the Frontend
+## 5. Access the Frontend
 
 Once running, access it at:
 
@@ -57,7 +66,7 @@ Once running, access it at:
 
 ---
 
-## 5. For WSL (Windows Subsystem for Linux) Users
+## 6. For WSL (Windows Subsystem for Linux) Users
 
 If you're using **WSL on Windows**, do the following:
 
