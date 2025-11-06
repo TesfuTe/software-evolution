@@ -11,7 +11,7 @@ In your **Home Assistant Core** repo, open `core/config/configuration.yaml` and 
 
 ```yaml
 # Before:
-# themes: !include_dir_merge_named themes
+themes: !include_dir_merge_named themes
 
 # After:
 development_repo: /home/tesfu-mbl/frontend
