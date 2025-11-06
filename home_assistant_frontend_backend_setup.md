@@ -41,6 +41,8 @@ nvm install
 nvm use
 script/bootstrap
 script/setup_translations
+nvm use
+script/develop
 ```
 
 ---
@@ -50,8 +52,6 @@ script/setup_translations
 In your **frontend** repository:
 
 ```bash
-nvm use
-script/develop
 nvm use
 script/develop_and_serve -c http://localhost:8123
 ```
