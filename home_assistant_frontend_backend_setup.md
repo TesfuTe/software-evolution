@@ -9,13 +9,14 @@ Here are the steps to make the integration work between the Home Assistant **cor
 
 In your **Home Assistant Core** repo, open `core/config/configuration.yaml` and update the following lines:
 
-```yaml
-# Before:
-themes: !include_dir_merge_named themes
-
-# After:
-development_repo: /home/tesfu-mbl/frontend
-```
+- Replace:
+  ```
+  themes: !include_dir_merge_named themes
+  ```
+  with:
+  ```
+  development_repo: /home/tesfu-mbl/frontend
+  ```
 
 > **Note:** Replace `/home/tesfu-mbl/frontend` with your **absolute path** to the frontend directory.
 
